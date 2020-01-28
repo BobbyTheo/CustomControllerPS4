@@ -10,7 +10,7 @@
 }
 
 .custom.disconnected {
-    background: url(https://github.com/BobbyTheo/CustomControllerPS4/blob/master/img/disconnected.png);
+    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/svg/disconnected.svg);
 }
 
 .custom.disconnected div {
