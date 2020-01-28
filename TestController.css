@@ -6,12 +6,12 @@
     and you can observe it as an example. The sticks, buttons, and directional arrows are missing
     because their appropriate elements will be incorperated when their styling is defined below.
     The entirity of the skin's visual styling is done via background images and CSS sprites.*/
-    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/svg/base.svg);
+    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/base.png);
     height: 598px;
     width: 806px;
 }
 .custom.disconnected { /* This class shows an image when the controller is disconnected */
-    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/svg/disconnected.svg);
+    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/disconnected.png);
 }
 /* This hides the controller's button when disconnected so only the background image remains */
 .custom.disconnected div {
@@ -27,7 +27,7 @@
 .custom .trigger{/* These are the actual triggers themselves */
     width: 99px;
     height: 100%;
-    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/svg/triggers.svg);
+    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/triggers.png);
     opacity: 0;
 }
 /* The left and right classes below are used to position the triggers
@@ -47,7 +47,7 @@ placement */
 .custom .bumper{
     width: 99px;
     height: 23px;
-    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/svg/bumper.svg) no-repeat;
+    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/bumper.png) no-repeat;
     opacity: 0;
 }
 .custom .bumpers{
@@ -85,7 +85,7 @@ placement */
     bottom: 216px;
 }
 .custom .meta.pressed {
-    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/svg/meta.svg) no-repeat center;
+    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/meta.png) no-repeat center;
 }
 .custom .arrows {
     position: absolute;
@@ -96,7 +96,7 @@ placement */
 }
 /* Setting the size and CSS sprite for the start adn select buttons */
 .custom .back, .custom .start{
-    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/svg/start.svg);
+    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/start.png);
     width: 28px;
     height: 46px;
     opacity: 0;
@@ -128,7 +128,7 @@ placement */
     position: absolute;
     width: 55px;
     height: 55px;
-    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/svg/face.svg);
+    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/face.png);
 }
 .custom .button.pressed{
     background-position-y: 55px;
@@ -164,7 +164,7 @@ the CSS inline. */
 }
 .custom .stick{
     position: absolute;
-    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/svg/sticks.svg);
+    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/sticks.png);
     height: 94px;
     width: 94px;
 }
@@ -192,7 +192,7 @@ the CSS inline. */
 }
 /*This makes no sense but yeah, it's the dpad file which is used here*/
 .custom .face{
-    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/svg/dpad.svg);
+    background: url(https://raw.githubusercontent.com/BobbyTheo/CustomControllerPS4/master/img/dpad.png);
     position: absolute;
 }
 .custom .face.up, .custom .face.down{
