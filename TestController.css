@@ -1,28 +1,3 @@
-/*
--How to use Custom CSS for the Gamepad Viewer-
-http://mrmcpowned.com/gamepad
-Enabling a custom CSS is as easy as adding &css=[url to css file]
-to the end of the url like so:
-http://mrmcpowned.com/gamepad?p=1&css=https://gist.github.com/anonymous/526491dc02014099cd14/raw/d7bb0477ba984f794497f3f0f82cb33484dc7889/ps3.css
-I suggest uploading your custom CSS to GitHub's gist as you
-can easily get the direct link for the file by copying the
-link address on the"Raw" button at the top right of the code.
-NOTE: If you're using gist, MAKE SURE TO NAME YOUR CSS FILE!
-It doesn't matter what you call it, so long as it ends in .css
-else the site won't read it and think it's just a plain text.
-Each CSS entry must be preceded by '.custom' since that's the
-hardcoded class for a custom style. It doesn't make sense to
-change this as you can only have one custom skin loaded at a time.
-If you're using images, they have to be uploaded to an image host of
-your choice. Personally, I'd go with Imgur since it's simple to upload
-and get the direct URL of the image. None of the images in this example
-will load because they're pointing to a location relative of the css
-files, since this is normally in the main CSS file of the site.
-The following is a copy of the code used for displaying the PS3 controller
-skin on the Gamepad viewer. You can scroll below and read the comments to
-get an understanding of how the styling works and whatnot. Happy skinning!
-*/
-
 /*BEGIN PS4 Controller Styling*/
 /*This class defines the base attributes of the skin*/
 .controller.custom{
