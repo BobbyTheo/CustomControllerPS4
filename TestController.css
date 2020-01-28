@@ -3,8 +3,8 @@
 .controller.custom {
     background: url(https://svgshare.com/i/Fex.svg );
     background-position: 0px;
-    height: 598px;
-    width: 806px;
+    height: 600px;
+    width: 800px;
        /* margin-left: -403px;*/
       /*  margin-top: -280px;*/
 }
@@ -75,6 +75,7 @@
     position: absolute;
     left: 272px;
     top: 122px;
+    color: black;
 }
 
 .custom .touchpad.pressed {
