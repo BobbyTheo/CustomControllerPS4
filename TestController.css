@@ -10,7 +10,7 @@
 }
 
 .custom.disconnected {
-    background: url('Desktop\Controller Assets\disconnected.png' );
+    background: url('disconnected.png' );
 }
 
 .custom.disconnected div {
